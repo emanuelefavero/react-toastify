@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
+}
+
+/* CUSTOMIZE TOASTIFY */
+/* Default, Warning, Error, Info  */
+.Toastify__toast {
+  background: rgba(11, 12, 16, 1) !important;
+  color: rgb(244, 245, 247) !important;
+}
+.Toastify__toast--warning {
+  background: #1e1301 !important;
+}
+.Toastify__toast--error {
+  background: #1d0107 !important;
+}
+.Toastify__toast--success {
+  background: #011d12 !important;
+}
+.Toastify__toast--info {
+  background: #010e21 !important;
+}
+
+/* Close Button */
+.Toastify__close-button > svg {
+  color: #fff !important;
+}
+
+/* Progress Bar */
+.toastProgress {
+  background: rgb(212, 214, 219) !important;
+  height: 1px !important;
+}
+
+/* Font */
+.toastBody {
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  font-size: 1rem !important;
+}
