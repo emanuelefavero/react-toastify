@@ -18,3 +18,8 @@ This is an example of how to use and customize [React Toastify](https://www.npmj
 npm i
 npm start
 ```
+
+## Resources
+
+- [React Toastify](https://www.npmjs.com/package/react-toastify)
+- [React Toastify - Github Pages](https://fkhadra.github.io/react-toastify/introduction)
